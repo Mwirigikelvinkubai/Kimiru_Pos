@@ -1,10 +1,27 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
+import Topbar from "./components/Topbar";
+import Dashboard from "./pages/Dashboard";
+import Sales from "./pages/Sales";
+import Products from "./pages/Products";
+import NotFound from "./pages/NotFound";
+
 function App() {
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Welcome to Kimiru_Pos
-      </h1>
-    </div>
+    <Router>
+      <div className="flex">
+        <Sidebar />
+        <div className="flex-1">
+          <Topbar />
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/sales" element={<Sales />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
