@@ -20,7 +20,7 @@ cd frontend
 npm install
 npm run dev
 ```
-
+on it
 ### Backend
 ```bash
 cd backend
