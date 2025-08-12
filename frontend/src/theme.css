@@ -1,0 +1,14 @@
+:root {
+  /* Brand colors */
+  --primary: #4F46E5; /* indigo-600 */
+  --secondary: #F59E0B; /* amber-500 */
+  --background: #F9FAFB; /* gray-50 */
+  --text: #111827; /* gray-900 */
+
+  /* Typography */
+  --font-main: 'Inter', sans-serif;
+
+  /* Spacing */
+  --radius: 0.5rem;
+  --shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
