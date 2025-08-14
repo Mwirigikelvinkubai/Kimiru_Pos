@@ -72,23 +72,3 @@ POS-System/
 │   └── package.json
 │
 ├── README.md
-
-frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   │   ├── Login.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Products.jsx
-│   │   │   ├── Sales.jsx
-│   │   │   ├── Receipt.jsx
-│   │   │   └── Reports.jsx
-│   │   ├── services/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── tailwind.config.js
-│   └── package.json
-│
-├── README.md
